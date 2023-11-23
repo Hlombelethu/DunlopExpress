@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left .logo img {
+  width: 100%;
+  height: 400px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right .buttons a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 18px;
+  font-weight: 900;
+  color: black;
+}
+
+.contact {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.contact .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .container .holder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .container .holder .image {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .container .holder .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.contact .container .holder .text h2 {
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.contact .container .holder .text p {
+  width: 400px;
+  margin-right: 100px;
+  margin-left: 150px;
+  font-size: 17.5px;
+}
+
+.contact .container .holder .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact .container .holder .wrapper {
+  width: 600px;
+  height: 210px;
+  margin-top: 100px;
+  border: 3px solid white;
+  background-color: white;
+  position: relative;
+}
+
+.contact .container .holder .wrapper .icons {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact .container .holder .wrapper .icons .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .container .holder .wrapper .icons .icon i {
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  position: absolute;
+  border-radius: 70px;
+  font-size: 42px;
+  padding: 10px;
+  z-index: 1;
+  top: -30px;
+}
+
+.contact .container .holder .wrapper .icons .icon h2 {
+  margin-top: 50px;
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.contact .container .holder .wrapper .icons .icon p {
+  font-size: 18px;
+}
+
+.second-contact {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+}
+.second-contact .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-contact .container .text {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.second-contact .container .text h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.second-contact .container .map {
+  margin-bottom: 100px;
+}
+
+.second-contact .container .map iframe {
+  width: 1200px;
+}
+.third-contact {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-contact .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-contact .container .text {
+  width: 100%;
+}
+
+.third-contact .container .text h2 {
+  margin-top: 50px;
+  font-weight: 900;
+}
+.third-contact .container .Inputs-holder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 30px;
+}
+
+.third-contact .container .Inputs-holder hr {
+  width: 100%;
+}
+
+.third-contact .container .Inputs-holder Input {
+  width: 100%;
+  border: none;
+  padding: 25px;
+}
+
+.third-contact .container .Inputs-holder .btn {
+  width: 50%;
+  margin-top: 50px;
+  background-color: yellow;
+  border: 5px solid red;
+  margin-left: 90px;
+  padding: 20px;
+}
+.third-contact .container .Inputs-holder .btn:hover {
+  color: black;
+  font-weight: 900;
+  border: 5px solid yellow;
+  background-color: red;
+}
+
+.third-contact .container .Inputs-holder .btn a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+
+.footer .container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .container .text .Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 200px;
+}
+
+.footer .container .text .Button a {
+  background-color: white;
+  transform: all is ease-in-out;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 900;
+  margin-left: 10px;
+  padding: 15px;
+  color: black;
+}
+
+.footer .container .text .Button a:hover {
+  background-color: wheat;
+  color: white;
+}
+
+.footer .container .text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.footer .container .text .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .container .text .btn a {
+  margin-left: 10px;
+}
+
+.footer .container .text .btn h3 {
+  color: white;
+  font-weight: 900;
+}
+
+.footer .container .text .btn a {
+  text-decoration: none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: 900;
+  color: black;
+  transform: all is ease-in-out;
+}
+
+.footer .container .text .btn a:hover {
+  color: white;
+  background-color: black;
+}
